@@ -2,8 +2,7 @@
 """
 ###### Task 2
 Ask the user to enter a name.
-Check the name against a tuple that contains a series of names to see if it is a match. Use a for loop this time instead of a single if with multiple
-logical operators
+Check the name against a tuple that contains a series of names to see if it is a match. Use a for loop this time instead of a single if with multiple logical operators
 (2 points)
 
 inputs:
@@ -22,4 +21,10 @@ Enter a name: Lebron
 That name is on the list
 """
 
-nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
+nameList = ["Lebron","Kobe","Michale","Shaq","Dennis","Talan"]
+
+name = input("enter a name: ")
+if name in nameList:
+    print("that name is in the list")
+else:
+    print("that name is not in the list")

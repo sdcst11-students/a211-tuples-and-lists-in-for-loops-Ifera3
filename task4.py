@@ -8,3 +8,10 @@ position in the tuple
 """
 
 people=("John","Tyler","Dash","Kieran","Jayson","Tomoki","Minji","Dawson","Hewitt","Josh","Anson","Cole")
+
+position = int(input("enter a number less then ten: "))
+
+if position < 10:
+    print(people[position])
+else:
+    print("value to big")
